@@ -1,0 +1,30 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.library-list{
+  padding-inline-start: 0px;
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    button {
+      height: 50px;
+    }
+  }
+}
+
+.form-input {
+  display: flex;
+  gap: 10px;
+  input {
+    padding: 10px 15px;
+  }
+}
+
+.library-form button{
+  width: 100%;
+  margin-top: 15px;
+}
